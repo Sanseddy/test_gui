@@ -30,7 +30,7 @@ addon {
     name.set(project.name.capitalized())
     version.set(project.version.toString())
     novaVersion.set(libs.versions.nova)
-    main.set("com.example.ExampleAddon") // TODO: Change this to your main class
+    main.set("com.example.test_gui") // TODO: Change this to your main class
     
     // authors.add("ExampleAuthor") TODO: Set your list of authors
     // spigotResourceId.set(12345) TODO: Set your spigot resource id
