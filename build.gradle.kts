@@ -1,7 +1,7 @@
 import org.gradle.configurationcache.extensions.capitalized
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-group = "com.example" // TODO: Change this to your group
+group = "com.test_gui" // TODO: Change this to your group
 version = "1.0-SNAPSHOT" // TODO: Change this to your addon version
 
 val mojangMapped = project.hasProperty("mojang-mapped") || System.getProperty("mojang-mapped") != null
